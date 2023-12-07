@@ -1,0 +1,81 @@
+@import "./github-markdown-light.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#head {
+    @apply bg-black pt-48 pb-32;
+    color: #FFFFFF;
+}
+
+#head .brand, #head .who {
+    @apply text-center;
+}
+
+#head .brand {
+    @apply mb-8;
+}
+
+#head .brand img {
+    @apply w-[128px] md:w-[200px];
+    display: inline-block;
+}
+
+#head .who h1 {
+    @apply text-[2.5rem] md:text-[3rem];
+    font-weight: 600;
+    font-style: italic;
+}
+
+#head .who p {
+    @apply text-[1.5rem] md:text-[2rem] px-8 md:px-20 lg:px-80 xl:px-[32rem];
+    font-weight: 200;
+}
+
+#work {
+    @apply bg-black;
+}
+
+#work p {
+    @apply pt-8 text-center mb-8 text-[0.875rem] md:text-[1rem];
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+.workitem {
+    @apply flex items-center justify-center py-12;
+}
+
+.workitem .appicon {
+    @apply w-[128px] md:w-[200px];
+}
+
+.workitem .apphead {
+    color: #FFFFFF;
+}
+
+.workitem .apphead .appname {
+    @apply text-[1.5rem] md:text-[2.5rem];
+    font-weight: 600;
+}
+
+.workitem .apphead .apptagline {
+    @apply text-[1rem] md:text-[1.5rem];
+    font-weight: 200;
+}
+
+.workitem#slippod {
+    background-color: #DF5F38;
+}
+
+.vline {
+    @apply text-center bg-black pt-8;
+}
+
+.vline span {
+    display: inline-block;
+    width: 1px;
+    height: 200px;
+    background-color: #FFFFFF;
+    opacity: 0.5;
+}
