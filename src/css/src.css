@@ -79,3 +79,18 @@
     background-color: #FFFFFF;
     opacity: 0.5;
 }
+
+header {
+    @apply px-8;
+    border-bottom: 1px solid #dadada;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: #FFFFFF;
+}
+header .brand img {
+    height: 32px;
+}
+
+body[data-page="privacy"] .wrapper, body[data-page="subcontractors"] .wrapper {
+    @apply px-8 pt-8 w-full md:w-[820px] md:mx-auto;
+}
