@@ -68,6 +68,14 @@
     background-color: #DF5F38;
 }
 
+.workitem#textpixie {
+    background-color: #DBCA9A;
+}
+
+.workitem#textpixie .appicon {
+    @apply pr-8;
+}
+
 .vline {
     @apply text-center bg-black pt-8;
 }
